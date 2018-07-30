@@ -15,3 +15,5 @@ EOF
 
 cat $PROJECT_HOME/.env
 cat $AWS_PROFILE
+
+echo $bob
