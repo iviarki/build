@@ -1,4 +1,9 @@
 version: 0.2
+env:
+  variables:
+    PROJECT_HOME: $CODEBUILD_SRC_DIR
+    PROJECT_TEST: "$CODEBUILD_SRC_DIR"
+    key: "value"
 
 phases:
   pre_build:

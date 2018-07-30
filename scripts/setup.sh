@@ -1,4 +1,7 @@
 #!/bin/sh
+echo $PROJECT_HOME
+echo $PROJECT_TEST
+
 PROJECT_HOME="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $PROJECT_HOME
 
