@@ -1,6 +1,10 @@
 version: 0.2
 
 phases:
+  pre-build:
+    commands:
+      chmod +x scripts/setup.sh
   build:
     commands:
+      ls
       ./scripts/setup.sh
