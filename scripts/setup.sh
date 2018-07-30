@@ -9,3 +9,6 @@ AWS_PROFILE=mach
 DONE_ENV=dev
 DONE_SRC=prd
 EOF
+
+cat $PROJECT_HOME/.env
+cat $AWS_PROFILE
