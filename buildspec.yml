@@ -3,8 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      chmod +x scripts/setup.sh
+      - chmod +x scripts/setup.sh
   build:
     commands:
-      ls
-      ./scripts/setup.sh
+      - ls
+      - ./scripts/setup.sh
