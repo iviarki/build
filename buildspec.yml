@@ -9,6 +9,7 @@ phases:
   install:
     commands:
       - export bob=blob
+      - PROJECT_TEST=$CODEBUILD_SRC_DIR
       - command
   pre_build:
     commands:
