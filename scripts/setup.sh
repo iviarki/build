@@ -5,7 +5,8 @@ echo $PROJECT_TEST
 PROJECT_HOME="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $PROJECT_HOME
 
-sudo cat <<EOF > $PROJECT_HOME/.env
+mkdir -p $PROJECT_HOME
+sudo cat <<EOF > {$PROJECT_HOME}/.env
 PIPENV_VENV_IN_PROJECT=True
 PROJECT_HOME=$PROJECT_HOME
 AWS_PROFILE=mach
